@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+build/
+dist/
+*.spec
+
+# Outputs and personal files
+*_hinglish.txt
+*_hinglish.srt
+hinglish_custom.txt

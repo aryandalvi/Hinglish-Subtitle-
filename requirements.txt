@@ -1,0 +1,8 @@
+# Speech-to-text (CTranslate2 Whisper). Downloads the model once, then works offline.
+faster-whisper>=1.2.1
+# faster-whisper 1.2.x calls av.open(metadata_errors=...), which PyAV 17+ removed.
+av>=15,<17
+# Offline Devanagari -> Roman transliteration.
+indic-transliteration>=2.3.70
+# Only needed for "Use Claude API for better Hinglish".
+anthropic>=2.3.0
